@@ -1,0 +1,32 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/ugrads/owens/cs1302-artsy/src/main/java/cs1302/p2/RotatePane.java)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/ugrads/owens/cs1302-artsy/src/main/java/cs1302/p2/RotatePane.java)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/ugrads/owens/cs1302-artsy/src/main/java/cs1302/p2/RotatePane.java)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/ugrads/owens/cs1302-artsy/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_3d819d7d/argfile[0m
+[0m[[31merror[0m] [0m/home/ugrads/owens/cs1302-artsy/src/main/java/cs1302/p2/RotatePane.java:38: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m		getScene().getWindow().close();[0m
+[0m[[31merror[0m] [0m		                      ^[0m
+[0m[[31merror[0m] [0m  symbol:   method close()[0m
+[0m[[31merror[0m] [0m  location: class Window[0m
+[0m[[31merror[0m] [0m/home/ugrads/owens/cs1302-artsy/src/main/java/cs1302/p2/RotatePane.java:40: error: cannot find symbol[0m
+[0m[[31merror[0m] [0m	cancel.setOnAction(event -> getScene().getWindow().close());[0m
+[0m[[31merror[0m] [0m	                                                  ^[0m
+[0m[[31merror[0m] [0m  symbol:   method close()[0m
+[0m[[31merror[0m] [0m  location: class Window[0m
+[0m[[31merror[0m] [0m2 errors[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 1[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) javac returned nonzero exit code[0m
